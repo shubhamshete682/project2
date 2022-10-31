@@ -1,0 +1,601 @@
+* {
+
+    margin: 0px auto;
+    box-sizing: border-box;
+
+}
+
+ .main{
+
+    width: 100%;
+    background-color: white;
+   
+}  
+
+
+.tble {
+
+
+    width: 100%;
+    height: 50px;
+
+
+}
+
+#h3 {
+
+
+    padding: 50px 400px;
+    text-align: center;
+
+}
+
+#header {
+
+ padding-top: 100px;
+    text-align: center;
+}
+
+.button {
+
+    padding-left: 550px;
+
+}
+
+#b1 {
+
+    border-color: rgb(67, 214, 57);
+    background-color: rgb(67, 214, 57);
+    padding: 10px;
+    border-radius: 12px;
+    transform: translateY(-12px);
+ transition: transform .2s;
+}
+ #b1:hover{
+
+    transform: scale(1.1);
+ }
+
+
+
+
+#b2 {
+    border-color: rgb(50, 187, 228);
+    background-color: rgb(50, 187, 228);
+    padding: 10px;
+  
+    border-radius: 12px;
+    transform: translateY(-12px) ;
+    transition: transform .2s;
+}
+#b2:hover{
+
+    transform: scale(1.1);
+ }
+#t1 {
+
+
+    text-align: left;
+    padding: 0px 360px;
+
+}
+
+
+
+
+
+
+.navbar {
+
+    width: 100%; height: 70px;
+    background-color: rgb(60, 4, 4);
+   
+
+}
+
+.content {
+    width: 100%;
+    color: white;
+    height: 700px;
+    background-color: green;
+    
+    background-size: cover;
+}
+
+.img {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+   background-color: white;
+
+}
+
+.card {
+
+    width: 90%;
+
+    height: 200px;
+
+    display: flex;
+
+
+}
+
+#clon1 {
+    display: block;
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    background-size: cover;
+    padding: 30px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -10px -10px;
+    border-radius: 12px;
+    transform: translateY(-2px);
+    background: hsl(340deg, 100%, 32%);
+    
+}
+
+#clon1:hover{
+    
+
+    background: hsl(340deg, 100%, 32%);
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px  black;
+    outline-offset: 4px;
+    
+
+}
+
+#i1 {
+
+    border-radius: 50%;
+
+
+}
+
+#clon2 {
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: -10px -10px black;
+    border-radius: 12px;
+    text-align: justify;
+    background: hsl(340deg, 100%, 32%);
+}
+#clon2:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 10px 10px  black;
+    background: hsl(340deg, 100%, 32%);
+
+
+}
+
+#clon3 {
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: -10px -10px rgb(23, 22, 22);
+    border-radius: 12px;
+    text-align: justify;
+    background: hsl(340deg, 100%, 32%);
+
+}
+#clon3:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: hsl(340deg, 100%, 32%);
+    box-shadow: 10px 10px  rgb(20, 20, 20);
+
+
+}
+
+
+
+.card1 {
+
+
+    width: 90%;
+    height: 100px;
+    display: flex;
+
+    
+
+
+}
+
+#c1 {
+
+    width: 30%;
+    height: 120px;
+ background-color: white;
+ border: 1px solid black;
+ text-align: justify;
+ border: 1px solid black;
+ padding: 10px;
+ box-shadow: -10px -10px rgb(23, 22, 22);
+ padding: 10px 10px;
+ border-radius: 12px;
+ background: hsl(340deg, 100%, 32%);
+}
+#c1:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: hsl(340deg, 100%, 32%);
+    box-shadow: 10px 10px  rgb(20, 20, 20);
+
+
+}
+
+#ci{
+ width: 100%;
+ height: 20px;
+background-color: green;
+box-sizing: border-box;
+overflow: hidden;
+
+
+
+
+}
+
+#c2 {
+
+    width: 30%;
+    height: 120px;
+ background-color: white;
+ border: 1px solid black;
+ text-align: justify;
+ border: 1px solid black;
+ padding: 10px;
+ box-shadow: -10px -10px rgb(23, 22, 22);
+ padding: 10px 10px;
+ border-radius: 12px;
+ background: hsl(340deg, 100%, 32%);
+}
+#c2:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: hsl(340deg, 100%, 32%);
+    box-shadow: 10px 10px  rgb(20, 20, 20);
+
+
+}
+
+#c3 {
+    width: 30%;
+    height: 120px;
+ background-color: white;
+ border: 1px solid black;
+ text-align: justify;
+ border: 1px solid black;
+ padding: 10px;
+ box-shadow: -10px -10px rgb(23, 22, 22);
+ padding: 10px 10px;
+ border-radius: 12px;
+ background: hsl(340deg, 100%, 32%);
+
+}
+#c3:hover{
+
+    border: 1px solid;
+    padding: 10px;
+    background: hsl(340deg, 100%, 32%);
+    box-shadow: 10px 10px  rgb(20, 20, 20);
+
+
+}
+
+
+
+
+
+
+
+ul li {
+
+    display: inline;
+}
+
+
+#tbl1 {
+    text-align: left;
+    border-spacing: 10px;
+}
+
+.img2 {
+
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+}
+
+/* ul.post {
+
+    display: inline;
+} */
+
+.footer {
+    width: 100%;
+    text-align: left;
+    padding: 10px 10px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+}
+
+.col1 {
+    width: 15%;
+    height: 400px;
+    background: rgb(14, 14, 14);
+    color: white;
+
+}
+
+.col2 {
+    width: 15%;
+    height: 400px;
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.col3 {
+    width: 15%;
+    height: 400px;
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.col4 {
+    width: 15%;
+    height: 400px;
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.col5 {
+    width: 40%;
+    height: 400px;
+
+    padding: 55px 0px 0px 400px;
+    background: rgb(14, 14, 14);
+    color: white;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:550px) {
+
+
+
+.navbar{
+ width: 100%;
+  height: 70px;
+ 
+padding: 3px 3px;
+
+flex-wrap: wrap;
+display: flex;
+font-size: 10px;
+
+}
+
+.main{
+    
+    height: 2700px;
+    flex-wrap: wrap;
+  
+    width: 100%;
+}
+
+.content{
+    
+ color: white;
+    width: 100%;
+    height: 400px;
+ 
+  padding-top: 10px;
+  
+  flex-wrap: wrap;
+  display: flex;
+ 
+  
+
+} 
+#h3{
+
+    padding: 5px 5px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.button{
+    width: 20%;
+    padding: 6px 6px;
+    min-height: 10px;
+    flex-wrap: wrap;
+    display: inline-block;
+width: auto;
+
+
+}
+#b1{
+    width: 100%;
+    padding: 5px 5px;
+    min-height: 10px;
+    flex-wrap: wrap;
+    display: block;
+    text-align: center;
+    
+}
+#b2{
+    width: 100%;
+    padding: 5px 5px;
+    min-height: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.img{
+  
+ width: 100%;
+    height: 1600px;
+    padding: 30px;
+}
+
+.card{
+
+
+margin-top: 40px;
+width: 70%;
+display: block;
+height: 600px;
+
+}
+
+#clon1{
+
+ width: 100%;
+    padding: 15px 15px;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+#clon2{
+
+    width: 100%;
+       padding: 15px 15px;
+       flex-wrap: wrap;
+       display: flex;
+       
+   }
+   #clon3{
+
+    width: 100%;
+       padding: 15px 15px;
+       flex-wrap: wrap;
+       display: flex;
+       
+   }
+   .img2{
+    width: 100%;
+    min-height: 200px;
+   }
+
+   .card1{
+
+
+    
+    width: 100%;
+    display: block;
+    height: 1000px;
+    
+    }
+    #c1{
+
+        width: 100%;
+           padding: 15px 15px;
+           flex-wrap: wrap;
+           display: flex;
+           min-height: 150px;
+           
+       }
+       #c2{
+
+        width: 100%;
+           padding: 15px 15px;
+           flex-wrap: wrap;
+           display: flex;
+           min-height: 150px;
+           
+       }
+       #c3{
+
+        width: 100%;
+           padding: 15px 15px;
+           flex-wrap: wrap;
+           display: flex;
+           min-height: 150px;
+           
+       }
+
+      #c4{
+
+        display: none;
+      }
+    
+      .footer{
+
+   width:100%;
+   flex-wrap: wrap;
+   display: flex;
+
+      }
+
+      .col1{
+       width: 50%;
+        flex-wrap: wrap;
+        display: flex;
+       float: left;
+      }
+      .col2{
+
+        width: 50%;
+        flex-wrap: wrap;
+        display: flex;
+        float: right;
+      }
+
+      .col3{
+
+        width: 50%;
+        flex-wrap: wrap;
+        display: flex;
+       float: left;
+
+
+      }
+
+      .col4{
+
+        width: 50%;
+        flex-wrap: wrap;
+        display: flex;
+       float: right;
+      }
+
+      .col5{
+
+ 
+     width: 100%;
+       display: flex;
+       float: left;
+       height: 500px;
+       padding-left: 10%;
+      }
+
+      .copy{
+  background-color: green;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+      padding-left: 30%;
+      }
+
+}
